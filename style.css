@@ -1,0 +1,90 @@
+.title_Site
+{
+  font-size:x-large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: inline-block;
+}
+
+.window
+{
+  background-color:rgba(145, 183, 206, 0.178);
+  border-radius: 10px;
+  height: 100px;
+}
+
+.slogan 
+{
+  font-size:xx-large;
+  text-shadow: 1px 1px 2px lightskyblue;
+}
+@media (max-width:768px) {
+  .slogan{
+    font-size: x-large;
+  }
+  
+}
+
+.window_description
+{
+  color:rgb(90, 90, 90);
+}
+@media (max-width:823px) {
+  .window_description{
+    display:none;
+  }
+  
+}
+
+
+.news_title
+{
+  font-size :xx-large;
+  font-family:sans-serif;
+  color: rgb(66, 114, 247);
+  text-shadow: 1px 1px 2px grey;
+}
+@media (max-width:768px) {
+  .news_title{
+    font-size:x-large;
+  }
+  
+}
+
+
+.news_text
+{
+  font-style: italic;
+  text-decoration: underline;
+}
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
