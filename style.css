@@ -1,3 +1,7 @@
+.registration
+{
+ background-color: rgb(50, 123, 190);
+}
 .title_Site
 {
   font-size:x-large;
@@ -23,6 +27,24 @@
   }
   
 }
+#carouselExampleIndicators .carousel-item img
+{
+  object-fit: cover;
+  object-position: center;
+  height: 75vh;
+  min-height:250px;
+  overflow: hidden;
+}
+
+.carousel-caption h5 
+{
+  font-size: 50px;
+  color: whitesmoke;
+  text-shadow: 1px 1px 4px black;
+}
+
+
+  
 
 .window_description
 {
@@ -38,7 +60,8 @@
 
 .news_title
 {
-  font-size :xx-large;
+  font-size :40px;
+  text-align: center;
   font-family:sans-serif;
   color: rgb(66, 114, 247);
   text-shadow: 1px 1px 2px grey;
@@ -46,6 +69,7 @@
 @media (max-width:768px) {
   .news_title{
     font-size:x-large;
+    text-align: start;
   }
   
 }
