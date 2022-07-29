@@ -130,3 +130,14 @@
     font-size:x-large;
     text-align: start;
   }
+*/
+
+@media (max-width : 768px){  
+  aside 
+    {
+      display: none;
+    }
+  }
+
+  
+  
