@@ -133,7 +133,7 @@
 */
 
 @media (max-width : 768px){  
-  aside 
+  aside .profile
     {
       display: none;
     }
